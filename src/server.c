@@ -1419,6 +1419,11 @@ dictType replScriptCacheDictType = {
     NULL                        /* val destructor */
 };
 
+/**
+ * 当哈希表容量大于哈希表设置的初始值（4），并且哈希表中的元素数量小于哈希表容量的 10% 时会触发 resize 操作
+ * @param dict
+ * @return
+ */
 int htNeedsResize(dict *dict) {
     long long size, used;
 

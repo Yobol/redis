@@ -1,0 +1,3 @@
+/home/yobol/workspace/opensource/redis/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yobol/workspace/opensource/redis/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yobol/workspace/opensource/redis/cmake-build-debug/CMakeFiles/redis.dir
